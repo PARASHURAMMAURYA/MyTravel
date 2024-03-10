@@ -1,5 +1,5 @@
 import './Home.scss'
-import video from '../../Assets/video2.mp4';
+import video from '../../Assets/video.mp4';
 import {GrLocation} from 'react-icons/gr'
 import{HiFilter} from 'react-icons/hi';
 import{FiFacebook} from 'react-icons/fi';
@@ -49,16 +49,6 @@ const Home=()=>{
              <div className='input flex'>
              <input type='date'/>
              </div>
-             </div>
-
-             <div className='PriceInput'>
-              <div className='lable_total flex'>
-                 <label htmlFor='price'>Max price:</label>
-                 <h3 className='total'>₹5000</h3>
-              </div>
-              <div className='input flex'>
-              <input type='range' max='5000' min='1000'/>
-              </div>
              </div>
 
              <div className='searchOption flex'>
