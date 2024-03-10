@@ -1,6 +1,6 @@
 import './Footer.scss';
 import './Footer.scss';
-import img from '../../Assets/footer.jpg';
+import foot from '../../Assets/footer.jpg';
 import { FiSend } from "react-icons/fi";
 import { MdOutlineTravelExplore } from "react-icons/md";
 import { AiOutlineTwitter } from "react-icons/ai";
@@ -24,7 +24,7 @@ const Footer=()=>{
     <>
     <section className='footer'>
     <div className='videoDiv'>
-        <video src={video} loop autoPlay muted type='video/mp4'></video>
+        <img src={foot}  type='video/mp4'></img>
      </div>
 
      <div className='secContent container'>
