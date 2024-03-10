@@ -1,5 +1,5 @@
 import './Home.scss'
-import video from '../../Assets/video.mp4';
+import video from '../../Assets/video3.mp4';
 import {GrLocation} from 'react-icons/gr'
 import{HiFilter} from 'react-icons/hi';
 import{FiFacebook} from 'react-icons/fi';
@@ -51,9 +51,11 @@ const Home=()=>{
              </div>
              </div>
 
+              
+
              <div className='searchOption flex'>
              <HiFilter className="icon"/>
-             <span>More filter</span>
+             <span>More Details</span>
              </div>
        </div>
      <div data-aos="fade-up"className='homeFooterIcons flex'>
