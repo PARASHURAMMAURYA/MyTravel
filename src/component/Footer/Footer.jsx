@@ -1,6 +1,6 @@
 import './Footer.scss';
 import './Footer.scss';
-import video from '../../Assets/video.mp4';
+import img from '../../Assets/footer.jpg';
 import { FiSend } from "react-icons/fi";
 import { MdOutlineTravelExplore } from "react-icons/md";
 import { AiOutlineTwitter } from "react-icons/ai";
