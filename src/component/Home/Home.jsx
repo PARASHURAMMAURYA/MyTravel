@@ -1,5 +1,5 @@
 import './Home.scss'
-import video from '../../Assets/video3.mp4';
+import video from '../../Assets/video.mp4';
 import {GrLocation} from 'react-icons/gr'
 import{HiFilter} from 'react-icons/hi';
 import{FiFacebook} from 'react-icons/fi';
