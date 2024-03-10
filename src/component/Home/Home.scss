@@ -128,7 +128,7 @@
         width: max-content;
         bottom: -0.7rem;
         column-gap: .8rem;
-        padding: 5px;
+        padding: 5px 15px;
         border-radius: 3rem;
         left: 50%;
         transform: translate((-50%));
@@ -191,7 +191,7 @@
       }
 
       .cardDiv{
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
       }
     }
   }         
@@ -203,7 +203,7 @@
         .cardDiv{
           padding: 2rem 1rem;
           display: grid;
-          grid-template-columns: repeat(3,1fr);
+          grid-template-columns: repeat(2,1fr);
         }
     }
 }
